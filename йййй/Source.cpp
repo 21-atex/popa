@@ -16,6 +16,7 @@ int main() {
     int main_menu = 0;
     int setting_menu;
     string exit;
+    int popa;
 
     //жберю
     string textcolor_off = "\x1b[0m";
