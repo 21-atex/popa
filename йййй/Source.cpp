@@ -80,7 +80,21 @@ int main() {
             break;
 
         case 2:
-            ///статистика
+            system("cls");
+            cout << "\n\n\n";
+            cout << litotstup << color_second_theme << "+ " << color_title << "| " << underlined << "Статистика" << unform << endl;
+            cout << "\n\n\n";
+            cout << otstup << textclolor_bg << underlined << "W" << unform << textclolor_br << underlined << "\tL" << unform << underlined << "\tD" << unform << "\t|\t" << color_title << underlined << "Очки" << unform << endl;
+            cout << "\t\t\t\t\t\t\t\t|\n";
+            cout << litotstup << color_second_theme << "1 | " << color_username_1 << "Игрок 1\t" << unform << user_1_w << "\t" << user_1_l << "\t" << user_1_d << "\t" << "|\t" << color_second_theme << user_1_score << endl;
+            cout << "\t\t\t\t\t\t\t\t|\n";
+            cout << litotstup << color_second_theme << "2 | " << color_username_1 << "Игрок 2\t" << unform << user_2_w << "\t" << user_2_l << "\t" << user_2_d << "\t" << "|\t" << color_second_theme << user_2_score << endl;
+            cout << "\t\t\t\t\t\t\t\t|\n";
+            cout << litotstup << color_second_theme << "3 | " << color_username_1 << "Компьютер\t" << unform << computer_w << "\t" << computer_l << "\t" << computer_d << "\t" << "|\t" << color_second_theme << computer_score << endl;
+            cout << "\n\n";
+            cout << litotstup << color_second_theme << "0 | " << color_main_theme << "Назад" << endl;
+            cout << "\n";
+            cout << litotstup << color_second_theme << "> | " << color_main_theme << "Ввод: ", cin >> statistic;
             break;
 
         case 3:
